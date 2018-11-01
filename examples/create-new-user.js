@@ -14,18 +14,11 @@ async function start() {
     });
 
     // Create new user
-    try {
-      await kcAdminClient.users.create({
-        username: '081225088579',
-        email: 'rheza.satria.ta@gmail.com',
-        requiredActions: ['VERIFY_EMAIL']
-      });
-    } catch(e) {
-      console.log(e.response.data)
-    }
-
-    const user = await kcAdminClient.users.findOne('081225088578')
-    console.log('user: ', user)
+    await kcAdminClient.users.create({
+      username: '081225088579',
+      email: 'rheza.satria.aa@gmail.com',
+      requiredActions: ['VERIFY_EMAIL']
+    });
   } catch(e) {
     console.log(e)
   }
