@@ -1,0 +1,14 @@
+{
+  "name": "keycloack-admin-client-poc",
+  "version": "1.0.0",
+  "description": "Keycloack Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rheza Satria",
+  "license": "MIT",
+  "dependencies": {
+    "keycloak-admin": "^1.8.0"
+  }
+}
